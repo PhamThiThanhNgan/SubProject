@@ -1,0 +1,9 @@
+server:
+   port: 8085
+
+spring:
+   application:
+      name: config-server
+#   use native file in config server      
+   profiles:
+       active: native   
